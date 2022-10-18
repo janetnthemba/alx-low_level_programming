@@ -1,15 +1,19 @@
 #include "main.h"
+
 /**
- * main-program entry point.
- * Return:0-no error,non zero value if error.
- **/
-int main(void)
+ * print_alphabet - prints alphabet
+ *
+ * Return: always 0;
+ *
+ */
+
+void print_alphabet(void)
 {
 	char i;
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		putchar(i);
+		_putchar(i);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
