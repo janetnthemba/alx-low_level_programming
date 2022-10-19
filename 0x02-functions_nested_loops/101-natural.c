@@ -15,7 +15,7 @@ void print_sum(void)
 	while (a < 1024)
 	{
 		if (a % 3 == 0 || a % 5 == 0)
-			total += i;
+			total += 1;
 		a += 1;
 	}
 	printf("%d\n", total);
