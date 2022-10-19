@@ -20,3 +20,15 @@ void print_sum(void)
 	}
 	printf("%d\n", total);
 }
+
+/**
+ * main - prints the sum
+ *
+ * Return: Always 0.
+ */
+
+int main(void)
+{
+	print_sum();
+	return (0);
+}
