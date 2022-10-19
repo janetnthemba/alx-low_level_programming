@@ -5,6 +5,7 @@
  *
  * Return: nothing
  */
+
 int main(void)
 {
 	int counter = 1;
