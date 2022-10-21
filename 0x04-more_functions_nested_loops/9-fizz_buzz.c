@@ -2,26 +2,23 @@
 
 /**
  * main - main function
- * Return: a number
+ * Return: Always 0
  */
 int main(void)
 {
-	int i;
-	int result;
+	int n;
 
-	for (i = 1; i <= 100; i++)
+	printf("1");
+	for (n = 2; n <= 100; n++)
 	{
-		if (i % 3 == 0 || i % 5 == 0)
-		{
-			if (i % 3 == 0)
-				printf("Fizz");
-			if (i % 5 == 0)
-				printf("Buzz");
-		}
-		else
-			printf("%d", i);
-		if (i != 100)
-			printf(" ");
+		printf(" ");
+		if (n % 3 == 0)
+			printf("Fizz");
+		if (n % 5 == 0)
+			printf("Buzz");
+		if (n % 3 != 0 && n % 5 != 0)
+			printf("%d", n);
 	}
 	printf("\n");
+	return (0);
 }
