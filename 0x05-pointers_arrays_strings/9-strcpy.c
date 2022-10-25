@@ -1,4 +1,4 @@
-#include "mainh.h"
+#include "main.h"
 #include "2-strlen.c"
 
 /**
@@ -17,5 +17,5 @@ char *_strcpy(char *dest, char *src)
 	{
 		dest[i] = src[i];
 	}
-	return dest;
+	return (dest);
 }
