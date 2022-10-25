@@ -1,7 +1,7 @@
 #include "main.h"
-#include "2-strlen.c"
-
 /**
+ * _strlen - print string length
+ *
  * _atoi - converts string to integer
  * @s: string to convert
  *
