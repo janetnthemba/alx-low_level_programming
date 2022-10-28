@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  * _strcat - concats two arrays
@@ -9,7 +8,7 @@
  *
  * Return: char value
  */
-char *_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src);
 {
 	int i;
 	int j;
