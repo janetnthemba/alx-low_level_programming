@@ -2,9 +2,9 @@
 
 /**
  * _strcat - concats two arrays
- * @dest: destination of concat
- * @src: source array to concat
- * Return: char value
+ * @dest: copy to
+ * @src: copy from
+ * Return: pointer to dest
  */
 char *_strcat(char *dest, char *src)
 {
