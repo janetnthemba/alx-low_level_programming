@@ -2,21 +2,24 @@
 
 /**
  * print_chessboard - board to print
- * @a: prints things
- * Return: returns crap
+ * @a: size of 2D array
+ * Return: none
  */
 void print_chessboard(char (*a)[8])
 {
-	int i;
+	int i = 0;
 	int j;
 
-	for (i = 0; i < 8; i++)
+	while (i < 8)
 	{
-		for (j = 0; j < 8; j++)
-			for (j = 0; j < 8; j++)
-			{
-				_putchar(a[i][j]);
-			}
-		_putchar('\n');
+		j = 0;
+		while (j < 8)
+		{
+			_putchar(a[i][j]);
+			if (j == 7)
+				_putchar('\n');
+			j++;
+		}
+		i++;
 	}
 }
